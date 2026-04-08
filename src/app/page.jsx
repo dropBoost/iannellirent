@@ -5,7 +5,7 @@ import COMPsocialIcons from "@/components/socialIcons";
 export default function Home() {
   
   return (
-  <div className="flex h-screen flex-col p-3 bg-radial-[at_25%_100%] from-neutral-950 via-neutral-900 via-60% to-brand to-100%  text-neutral-200">
+  <div className="flex min-h-dvh h-dvh flex-col p-3 bg-radial-[at_25%_100%] from-neutral-950 via-neutral-900 via-60% to-brand to-100%  text-neutral-200">
     <main className="flex flex-col flex-1 rounded-4xl gap-4 p-3">
       <div className="flex flex-row items-center justify-between">
         <Image width={200} height={100} src={`/assets/logo-type-light.png`} alt="logo-iannelli-rent"/>
